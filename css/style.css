@@ -291,7 +291,8 @@ body {
 }
 
 .hero .content p {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  font-style: oblique;
   margin-top: 1rem;
   line-height: 1.4;
   font-weight: 100;
