@@ -1,11 +1,12 @@
 document.addEventListener('alpine:init', () => {
   Alpine.data('products', () => ({
     items: [
-      { id: 1, name: 'Robusta Brazil', img: '1.jpg', price: 20000},
-      { id: 2, name: 'Arabica Blend', img: '2.jpg', price: 25000},
-      { id: 3, name: 'Primo Paso', img: '3.jpg', price: 30000},
-      { id: 4, name: 'Aceh Gayo', img: '4.jpg', price: 35000},
-      { id: 5, name: 'Sumatra Mandheling', img: '5.jpg', price: 40000},
+      { id: 1, name: 'Black Straps', img: '1.jpg', price: 15000},
+      { id: 2, name: 'Blue Straps', img: '2.jpg', price: 15000},
+      { id: 3, name: 'Green Straps', img: '3.jpg', price: 15000},
+      { id: 4, name: 'Red Straps', img: '4.jpg', price: 15000},
+      { id: 5, name: 'Yellow Straps', img: '5.jpg', price: 15000},
+      { id: 5, name: 'Grey Straps', img: '6.jpg', price: 15000},
     ],
   }));
 
@@ -93,7 +94,7 @@ checkoutButton.addEventListener('click', function (e) {
   const data = new URLSearchParams(formData);
   const objData = Object.fromEntries(data);
   const message = formatMessage(objData);
-  window.open('https://wa.me/6285290675758?text=' + encodeURIComponent(message));
+  window.open('https://wa.me/6285223097191?text=' + encodeURIComponent(message));
 });
 
 //format pesan whatsapp
